@@ -1,0 +1,117 @@
+section #sobre {
+  display: flex;;
+}
+
+
+
+#about {
+    margin-top: 26rem;
+    background-color: rgb(10, 10, 10);
+    height: 75vh;
+  }
+  
+  #about h1 {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    color: orangered;
+  }
+  
+  #about p {
+    text-align: left;
+    color: #fff;
+    font-size: 22px;
+    margin-left: 60px;
+    margin-top: 70px;
+  }
+  
+  
+
+  #about #portScroll img {
+    text-align: left;
+    margin-right: 5px;
+    width: 18px;
+  }
+  
+  #portScroll a,
+  #portScroll a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #self img {
+    width: 35%;
+    float: right;
+    border: solid 8px orangered;
+    border-radius: 2000px;
+    box-shadow: 5px 15px 30px #062928;
+    margin-right: 40px;
+  }
+
+  #btnsobre {
+    padding-top: 5rem;
+    padding-left: 50.5rem;
+  }
+
+  .btnsobre {
+    width: 20rem;
+    height: 5rem;
+    font-size: 20px;
+
+  }
+
+  @media screen and (max-width: 380px) { 
+    #about {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        height: 200vh;
+    }
+}
+
+
+  @media screen and (max-width: 600px) { 
+    #about {
+        display: none;
+        flex-direction: column;
+        margin-top: 0px;
+        height: 170vh;
+    }
+}
+
+
+
+
+@media screen and (max-width: 600px) { 
+  #btnsobre{
+      display: flex;
+     padding-left: 8.5rem;
+     padding-top: 0rem;
+  }
+}
+
+@media screen and (max-width: 600px) { 
+  .btnsobre {
+      display: flex;
+      width: 8rem;
+      height: 3.5rem;
+      font-size: 20px;
+  }
+}
+
+
+@media screen and (max-width: 600px) { 
+  #self img {
+      display: flex;
+      margin-right: 5rem;
+      width: 60%;
+  }
+}
+
+
+
+
+
+
+
+

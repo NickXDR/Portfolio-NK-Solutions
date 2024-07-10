@@ -1,0 +1,281 @@
+.interface {
+    background-color: rgb(10, 10, 10);
+    box-shadow: 0 0 0px;    
+    background-size: cover;
+    background-position: center;
+}
+
+.interface h2{
+    margin-top: 30px;
+    color: orangered;
+    font-size: 38px;
+    text-align: center;
+}
+
+section#serviços{
+    display: flex;
+    background-size: cover;
+}
+
+#serviços .serviços-box{
+    margin-top: 5rem;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    width: 25rem;
+    display: inline-block;
+    margin-left: 6rem;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0 0 8px #f5f5f5;
+    margin-bottom: 2rem;
+    
+}
+
+.flex {
+    margin-left: 11.2rem;
+}
+
+#serviços .serviços-box:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+#serviços .serviços-box i{
+    display: flex;
+    font-size: 70px;
+    color: orangered;
+}
+
+.serviços-box #siteicon {
+    padding-left: 9rem;
+    padding-bottom: 1rem;
+}
+
+.serviços-box #cloudicon {
+    padding-left: 9rem;
+    padding-bottom: 1rem;
+}
+
+.serviços-box #softicon {
+    padding-left: 8.3rem;
+    padding-bottom: 1rem;
+}
+
+.serviços-box #redeicon {
+    padding-left: 8.6rem;
+    padding-bottom: 1rem;
+}
+
+.serviços-box #mobileicon {
+    padding-left: 9rem;
+    padding-bottom: 1rem;
+}
+
+.serviços-box #secicon {
+    padding-left: 9rem;
+    padding-bottom: 1rem;
+}
+
+
+#serviços .serviços-box h3{
+    padding-left: 6.6rem;
+    font-size: 26px;
+    margin: 12px 0;
+}
+
+#serviços .serviços-box p{
+    padding-left: 2rem;
+}
+
+#serviços .serviços-box #sectext{
+    padding-left: 5rem;
+}
+
+#serviços .serviços-box #apptext{
+    padding-left: 5rem;
+}
+
+#serviços .serviços-box #h3sites {
+    padding-left: 5.5em;
+}
+
+#serviços .serviços-box #h3apps {
+    padding-left: 6.3rem;
+} 
+
+#serviços .serviços-box #h3redes {
+    padding-left: 8.3rem;
+} 
+
+#serviços .serviços-box #h3mobile {
+    padding-left: 8.3rem;
+} 
+
+#saiba-mais {
+    margin-top: 2rem;
+    margin-left: 6.5rem;
+    margin-bottom: 1.4rem;
+}
+
+@media screen and (max-width:600px){
+    section#serviços{
+        display: flex;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:600px){
+    #serviços{
+        border-bottom: 1rem;
+        gap: 1rem ;
+        display: flex;
+        flex-direction: column;       
+    }
+
+}
+
+@media screen and (max-width:460px){
+    #serviços{
+        border-bottom: 1rem;
+        gap: 1rem ;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    .interface{
+        gap: 1rem;
+        background-color: rgb(10, 10, 10);
+    }
+
+}
+
+@media screen and (max-width:600px){
+    .serviços-box{
+        gap: 1rem ;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    #serviços .serviços-box{
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        width: 22rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 4.5rem;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+        border: solid 2px orangered;
+        box-shadow: none;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    .flex{
+        gap: 1rem ;
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: -2.5rem;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    .interface h2{
+        margin-top: 32px;
+        color: orangered;
+        font-size: 32px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:600px){
+    #serviços .serviços-box p{
+        padding-left: 0rem;
+    }
+    
+    #serviços .serviços-box #h3sites {
+        padding-left: 0em;
+    }
+    
+    #serviços .serviços-box #h3apps {
+        padding-left: 0rem;
+    } 
+    
+    #serviços .serviços-box #h3redes {
+        padding-left: 0rem;
+    } 
+    
+    #serviços .serviços-box #h3mobile {
+        padding-left: 0rem;     
+    } 
+    
+    #serviços .serviços-box #h3sistemas {
+        padding-left: 0rem;
+    }
+
+    #serviços .serviços-box #h3segurança {
+        padding-left: 0rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    .serviços-box #siteicon {
+        padding-left: 0rem;
+        padding-bottom: 1rem;
+    }
+    
+    .serviços-box #cloudicon {
+        padding-left: 0rem;
+        padding-bottom: 1rem;
+    }
+    
+    .serviços-box #softicon {
+        padding-left: 0rem;
+        padding-bottom: 1rem;
+    }
+    
+    .serviços-box #redeicon {
+        padding-left: 0rem;
+        padding-bottom: 1rem;
+    }
+    
+    .serviços-box #mobileicon {
+        padding-left: 0rem;
+        padding-bottom: 1rem;
+    }
+    
+    .serviços-box #secicon {
+        padding-left: 0rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    #saiba-mais {
+        margin-top: 0rem;
+        margin-left: 0rem;
+        margin-bottom: 0rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:600px){
+    .serviços-box h3 {
+        text-align: center;
+        margin-top: 0rem;
+        margin-left: 0rem;
+        margin-bottom: 0rem;
+    }
+
+}
+
+
+
+

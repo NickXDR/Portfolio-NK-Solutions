@@ -1,0 +1,107 @@
+.depoimentos-container {
+    background-color: rgb(10, 10, 10);
+    box-shadow: 0 0 0px;
+    background-size: cover;
+    background-position: center;
+}
+
+.depoimentos-container h5{
+    color: orangered;
+    font-size: 38px;
+    text-align: center;
+}
+
+section#depoimentos{
+    position: relative;
+    display: flex;
+    background-size: cover;
+}
+
+.depoimentos-box{
+    margin-left: 11.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    color: orangered;
+    width: 25rem;
+    display: inline-block;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0 0 8px orangered;
+}
+
+.depoimentos-box #depoimento1 {
+    color: rgb(255, 255, 255);
+}
+
+.clienteimg {
+    width: 80px;
+    height: 75px;
+    max-width: 100px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0;
+    border-collapse: collapse;
+    margin-left: 4.2rem;
+    margin-top: 1rem;
+}
+
+#cargo {
+    color: white;
+    text-align: center;
+}
+
+#hyyub {
+    margin-left: 6.3rem;
+    color: orangered;
+}
+
+.depoimentos-container h6 {
+    font-size: 20px;
+}
+
+.clienteimg2 {
+    width: 80px;
+    height: 75px;
+    max-width: 100px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0;
+    margin-left: 4.5rem;
+    margin-top: 1rem;
+}
+
+#noudelas {
+    margin-left: 7rem;
+    color: orangered;
+}
+
+.clienteimg3 {
+    width: 80px;
+    height: 75px;
+    max-width: 100px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0;
+    margin-left: 4.3rem;
+    margin-top: 1rem;
+}
+
+#tigelas {
+    margin-left: 6rem;
+    color: orangered;
+}
+
+@media screen and (max-width:600px){
+    .depoimentos-box{
+      margin-left: 3rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    .depoimentos-container {
+        position: relative;
+        display: none;
+        background-size: cover;
+    }
+}
